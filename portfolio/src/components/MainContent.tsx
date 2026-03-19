@@ -1,5 +1,9 @@
+import '../styles/components/maincontent.sass'
+
 export default function MainContent() {
     return (
-        <p>MainContent</p>
+        <main className='main-content'>
+            <p>Main content</p>
+        </main>
     )
 }
