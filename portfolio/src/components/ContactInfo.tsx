@@ -1,4 +1,4 @@
-import { AiOutlineMail, AiFillEnvironment } from 'react-icons/ai'
+import { AiOutlineMail } from 'react-icons/ai'
 import '../styles/components/contactinfo.sass'
 
 export default function ContactInfo() {
