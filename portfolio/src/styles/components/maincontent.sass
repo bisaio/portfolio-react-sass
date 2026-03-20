@@ -28,6 +28,25 @@
         margin-bottom: 1rem
         line-height: 1.4rem
 
-    .btn
-        @include mixins.btn
-        align-self: start
+    .projects
+        gap: 1rem
+
+    .project-card
+        @include mixins.center
+        justify-content: start
+        padding: 1rem
+        gap: 2rem
+        border-radius: variables.$container-boder-radius
+        background-color: variables.$bg-color-secondary
+
+        h3
+            color: variables.$text-color
+
+        img
+            width: clamp(60px, 10vw, 100px)
+            height: clamp(60px, 10vw, 100px)
+            object-fit: cover
+
+        .btn
+            @include mixins.btn
+            padding: 0.5rem 0.8rem
