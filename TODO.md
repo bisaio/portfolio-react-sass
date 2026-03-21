@@ -1,1 +1,2 @@
 - implementar um github pages pros projetos
+- add curriculo

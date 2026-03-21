@@ -10,7 +10,7 @@ export default function Sidebar() {
             <p className="title">Fullstack Developer</p>
             <SocialMedia />
             <ContactInfo />
-            <a href="" className="btn">Download curriculum</a>
+            {/* <a href="#" className="btn">Download curriculum</a> */}
         </aside>
     )
 }
